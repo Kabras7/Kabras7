@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="repository.Tiojarvis" 
+    name="TioJarvis Repo" 
+    version="2.0" 
+    provider-name="TioJarvis-Repo">
+
+    <!-- Requisitos -->
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>  
+    </requires>
+
+    <!-- Repositório -->
+    <extension point="xbmc.addon.repository" name="TioJarvis Repo">
+	 
+
+        <dir minversion="19.0.0">
+            <!-- Este diretório é para Kodi Matrix+ -->
+            <info compressed="true">https://</info>
+            <checksum>https://</checksum>
+            <datadir zip="true">https://</datadir>
+            <hashes>false</hashes>
+        </dir>    
+
+        <dir minversion="17.0.0" maxversion="18.9.0">
+            <!-- Este diretório é para Kodi Leia -->
+            <info compressed="true">https://</info>
+            <checksum>https://</checksum>
+            <datadir zip="true">https://</datadir>
+            <hashes>false</hashes>
+        </dir>
+
+        <dir minversion="16.0.0" maxversion="17.0.0">
+            <!-- Este diretório é para Kodi Krypton -->
+            <info compressed="true">https://</info>
+            <checksum>https://</checksum>
+            <datadir zip="true">https://</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+
+    <!-- Metadados -->
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositório Tio Jarvis</summary>
+        <description>Tutorial de repositório do Tio Jarvis</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+
+</addon>
